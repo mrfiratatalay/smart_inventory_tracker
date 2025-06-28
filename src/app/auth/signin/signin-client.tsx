@@ -401,24 +401,6 @@ export default function SignInClient() {
             </div>
           </form>
 
-          {/* Debug Info */}
-          <div className="mt-6 bg-gray-50 border border-gray-200 rounded-lg p-4">
-            <h4 className="text-sm font-medium text-gray-800 mb-2">
-              🔧 Debug Info
-            </h4>
-            <div className="text-xs text-gray-600 space-y-1">
-              <p>
-                <strong>Mode:</strong> {isSignUp ? "Sign Up" : "Sign In"}
-              </p>
-              <p>
-                <strong>Selected Role:</strong> {credentials.role}
-              </p>
-              <p>
-                <strong>Environment:</strong> {process.env.NODE_ENV}
-              </p>
-            </div>
-          </div>
-
           {/* Divider */}
           <div className="relative mt-6">
             <div className="absolute inset-0 flex items-center">
