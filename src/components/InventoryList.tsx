@@ -61,7 +61,7 @@ export default function InventoryList() {
   return (
     <div className="space-y-6">
       {/* Stats Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-white p-4 rounded-lg shadow-sm border">
           <p className="text-sm font-medium text-gray-600">Total Items</p>
           <p className="text-2xl font-bold text-gray-900">{totalItems}</p>
@@ -84,7 +84,7 @@ export default function InventoryList() {
 
       {/* Search and Filters */}
       <div className="bg-white p-4 rounded-lg shadow-sm border">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Search */}
           <div>
             <label
